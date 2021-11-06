@@ -71,7 +71,7 @@ jupyter: ipykernel
 
 
 ## Install Python Dependencies
-requirements: isvirtualenv test_environment
+requirements: isvirtualenv
 	@echo "$(ccso)--> Updating packages $(ccend)"
 	$(PYTHON_INTERPRETER) -m pip install -U pip setuptools wheel
 	$(PYTHON_INTERPRETER) -m pip install -r requirements.txt
