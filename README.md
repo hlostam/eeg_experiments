@@ -1,6 +1,12 @@
 # eeg_experiments
 
-## Setting up the connection
+## MuseLsl (working)
+0. Turn on the MUSE and insert the BLE Dongle
+1. Start the stream ```muselsl stream```
+2. 
+
+
+## Brainflow - Setting up the connection
 
 1. Finding out the COM port for the dongle:
 ```ls /dev/tty.*```
@@ -12,7 +18,3 @@
     Library is loaded
     ```
 
-## Another setting steps
-
-1. ```brew install dbus```
-2. 
